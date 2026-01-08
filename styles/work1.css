@@ -1,4 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+}
+nav{
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    width: 139px;
+    height: 60px;
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500px;
+}
+.hbutton{
+    background-color: #469165;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 12.5px 16px;
 }
