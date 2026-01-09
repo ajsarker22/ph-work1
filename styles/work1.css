@@ -42,11 +42,7 @@ button{
     border-radius: 4px;
     padding: 12.5px 16px;
 }
-<<<<<<< HEAD
 .hbutton:hover, #btn:hover, .herobtn2:hover, .herobtn3:hover{
-=======
-.hbutton:hover, #btn:hover, .herobtn1:hover, .herobtn2:hover, .herobtn3:hover{
->>>>>>> 04680f9ad3e382ba8c0ef337e358f79b413af699
     background-color: darkslategrey;
 }
 #hero{
@@ -83,11 +79,7 @@ button{
     align-items: center;
     justify-content: center;
 }
-<<<<<<< HEAD
 .herodiv{
-=======
-.herobtn1{
->>>>>>> 04680f9ad3e382ba8c0ef337e358f79b413af699
     display: flex;
     justify-content: center;
     align-items: center;
