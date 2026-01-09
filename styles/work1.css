@@ -240,3 +240,30 @@ button{
     margin-top: 24px;
     margin-bottom: 16px;
 }
+footer{
+  background-color: #001931;
+}
+#ft1{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 227px 80px 120px;
+}
+#ft1 p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 16px;
+}
+#ft1 a img{
+    margin-right: 12px;
+}
+hr{
+    margin: 0 120px;
+    backface-visibility: 15%;
+    border:1px solid #fafafa2b;
+}
+#ft2{
+    padding: 30px 120px;
+    text-align: center;
+    font-size: 16px;
+    color: #FAFAFA;
+}
