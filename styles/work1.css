@@ -28,6 +28,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 16px;
     font-weight: 500px;
+    color: black;
 }
 .hbutton{
     background-color: #469165;
@@ -37,4 +38,71 @@ nav ul li a{
     font-size: 16px;
     border-radius: 4px;
     padding: 12.5px 16px;
+}
+#hero{
+    background-image: url(../images/hero-bg.png);
+    width: auto;
+    height: 674px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.herobtn1{
+    width: 229px;
+    height: 35px;
+    padding: 8px 12px;
+    background-color: white;
+    color: #469165;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 115.5px;
+    border: none;
+}
+#hero h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 16px;
+}
+#hero h1 span{
+    color: #469165;
+    font-size: 70px;
+    display: block;
+}
+#hero p{
+    padding-left: 400px;
+    padding-right: 400px;
+    color: white;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    line-height: 2;
+}
+.herobtn2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #469165;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16.5px 16px;
+    border-radius: 4px;
+}
+.herobtn3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16.5px 16px;
+}
+#hero div{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
